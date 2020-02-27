@@ -1,0 +1,24 @@
+.list {
+    width: 100%;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.btn-list {
+    padding: 1rem;
+    cursor: pointer;
+    transition: .3s all;
+    border: none;
+    background-color: royalblue;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.btn-list:focus {
+    outline: none;
+}
+
+.btn-list:hover {
+    background-color: turquoise;
+}

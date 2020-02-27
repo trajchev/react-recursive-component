@@ -1,0 +1,43 @@
+.component {
+    position: relative;
+    padding: .5rem 0 .5rem 1rem;
+    box-shadow: 0 2px 2px 2px #ccc;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+.component h5 {
+    margin-top: 0;
+}
+
+.component h5 span {
+    float: left;
+}
+
+.closed {
+    display: none;
+}
+
+.opened {
+    display: block;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: .3s all;
+    border: none;
+    background-color: chocolate;
+    color: #fff;
+}
+
+.toggle-button:focus {
+    outline: none;
+}
+
+.toggle-button:hover {
+    background-color: coral;
+}
